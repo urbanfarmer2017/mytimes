@@ -1,0 +1,101 @@
+.header {
+  display: flex;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header img {
+  display: flex;
+  color: MediumAquamarine;
+  width: 100px;
+  height: 70px;
+  padding: 20px 0px;
+}
+
+.header h4 {
+  display: flex;
+  color: MediumAquamarine;
+  width: 500px;
+  height: 70px;
+  padding: 20px 10px;
+}
+
+.header img h4 {
+  border: 2px solid black;
+}
+
+.header ul {
+  display: flex;
+  color: black;
+}
+
+.header li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.main {
+  display: flex;
+}
+
+.main .large {
+  display: block;
+  width: 630px;
+  border: 2px solid black;
+  margin-left: 10px;
+}
+
+.main .medium {
+  display: block;
+  width: 300px;
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main .small {
+  display: block;
+  width: 240px;
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.large1 h4 {
+  background-image: url("../images/mainstory.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.large2 h4 {
+  background-image: url("../images/fallseason.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.large3 h4 {
+  background-image: url("../images/cameraman.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.medium2 h4 {
+  background-image: url("../images/catceo.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
