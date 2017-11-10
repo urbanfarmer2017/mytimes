@@ -46,6 +46,22 @@
   margin-left: 10px;
 }
 
+.large large4 {
+  display: flex;
+}
+
+.large .large2 {
+  width: 300px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.large .large3 {
+  width: 300px;
+  display: inline-block;
+  margin: 5px;
+}
+
 .main .medium {
   display: block;
   width: 300px;
@@ -60,6 +76,7 @@
   border: 2px solid black;
   margin-left: 10px;
   margin-right: 10px;
+  flex-direction: column;
 }
 
 .large1 h4 {
@@ -69,8 +86,7 @@
   font-weight: bold;
   font-size: 40px;
   color: white;
-  display: flex;
-  justify-content: flex-start;
+  margin: 0px;
 }
 
 .large2 h4 {
@@ -80,6 +96,7 @@
   font-weight: bold;
   font-size: 30px;
   color: white;
+  margin: 0px;
 }
 
 .large3 h4 {
@@ -89,6 +106,7 @@
   font-weight: bold;
   font-size: 30px;
   color: white;
+  margin: 0px;
 }
 
 .medium2 h4 {
@@ -98,4 +116,5 @@
   font-weight: bold;
   font-size: 30px;
   color: white;
+  margin: 0px;
 }
