@@ -10,7 +10,6 @@
   color: MediumAquamarine;
   width: 100px;
   height: 70px;
-  padding: 20px 0px;
 }
 
 .header h4 {
@@ -18,8 +17,8 @@
   color: MediumAquamarine;
   width: 500px;
   height: 70px;
-  padding: 20px 10px;
-  align-items: flex-start;
+  padding-left: 5px;
+  justify-content: flex-start;
 }
 
 .header img h4 {
@@ -29,12 +28,12 @@
 .header ul {
   display: flex;
   color: black;
-  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .header li {
   display: inline-block;
-  padding: 5px;
+  padding-left: 30px;
 }
 
 .main {
